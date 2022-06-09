@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <style>
+        div#casa1{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div#casa2{
+            margin-left: 105px;
+            margin-top: -100px;
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div#casa3{
+            margin-left: 210px;
+            margin-top: -100px;
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div#casa4{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            margin-top: 5px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div#casa5{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            margin-top: -100px;
+            margin-left: 105px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div#casa6{
+            margin-left: 210px;
+            margin-top: -100px;
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+
+        div#casa7{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            margin-top: 5px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div#casa8{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            margin-top: -100px;
+            margin-left: 105px;
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        div#casa9{
+            font: normal 100px Arial;
+            text-align: center;
+            line-height: 100px;
+
+            margin-left: 210px;
+            margin-top: -100px;
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px
+    
+        }
+
+        input {
+            margin-top: 10px;
+            size: 10px;
+            font: normal 15pt Arial;
+            
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>JOGO DA VELHA EM JS</h1><br/s>
+
+        <div id="casa1" onclick="clicar1()" ondblclick="dobleclick1()"></div>
+        <div id="casa2" onclick="clicar2()" ondblclick="dobleclick2()"></div>
+        <div id="casa3" onclick="clicar3()" ondblclick="dobleclick3()"></div>
+        <div id="casa4" onclick="clicar4()" ondblclick="dobleclick4()"></div>
+        <div id="casa5" onclick="clicar5()" ondblclick="dobleclick5()"></div>
+        <div id="casa6" onclick="clicar6()" ondblclick="dobleclick6()"></div>
+        <div id="casa7" onclick="clicar7()" ondblclick="dobleclick7()"></div>
+        <div id="casa8" onclick="clicar8()" ondblclick="dobleclick8()"></div>
+        <div id="casa9" onclick="clicar9()" ondblclick="dobleclick9()"></div>
+        <p>Clique único: X</p>   
+        <p>Clique Duplo: Bolinha</p>
+       
+        
+
+        <script>
+            function clicar1() {
+                var casa = window.document.querySelector('div#casa1')
+                casa.innerHTML = 'X'
+
+              
+            }
+
+            function dobleclick1() {
+                var casa = window.document.querySelector('div#casa1')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function clicar2() {
+                var casa = window.document.querySelector('div#casa2')
+                casa.innerHTML = 'X'
+
+
+            }
+
+            function dobleclick2() {
+                var casa = window.document.querySelector('div#casa2')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function clicar3() {
+                var casa = window.document.querySelector('div#casa3')
+                casa.innerHTML = 'X'
+
+
+            }
+
+            function dobleclick3() {
+                var casa = window.document.querySelector('div#casa3')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function clicar4() {
+                var casa = window.document.querySelector('div#casa4')
+                casa.innerHTML = 'X'
+
+
+            }
+
+            function dobleclick4() {
+                var casa = window.document.querySelector('div#casa4')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function clicar5() {
+                var casa = window.document.querySelector('div#casa5')
+                casa.innerHTML = 'X'
+
+
+            }
+
+            function dobleclick5() {
+                var casa = window.document.querySelector('div#casa5')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function clicar6() {
+                var casa = window.document.querySelector('div#casa6')
+                casa.innerHTML = 'X'
+
+
+            }
+
+            function dobleclick6() {
+                var casa = window.document.querySelector('div#casa6')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function clicar7() {
+                var casa = window.document.querySelector('div#casa7')
+                casa.innerHTML = 'X'
+
+
+            }
+
+            function dobleclick7() {
+                var casa = window.document.querySelector('div#casa7')
+                casa.innerHTML = 'O'
+
+
+            }
+        
+            function clicar8() {
+                var casa = window.document.querySelector('div#casa8')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function dobleclick8() {
+                var casa = window.document.querySelector('div#casa8')
+                casa.innerHTML = 'O'
+
+
+            }
+
+            function clicar9() {
+                var casa = window.document.querySelector('div#casa9')
+                casa.innerHTML = 'X'
+
+
+            }
+            
+            function dobleclick9() {
+                var casa = window.document.querySelector('div#casa9')
+                casa.innerHTML = 'O'
+
+
+            }
+
+
+
+
+
+        </script>
+    
+    
+</body>
+</html>
